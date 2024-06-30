@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 08 - D´agostino Guido</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <body>
+    <div id="intercambio-valores">
+        <section id="intercambio-de-valores">
+            <h2>Intercambio de Valores</h2>
+            <button onclick="intercambiarValores()">Intercambiar Valores</button>
+            <p id="intercambio-output"></p>
+        </section>
+
+        <section id="buscarelmayor">
+            <h2>Determinar el Mayor de Dos Números</h2>
+            <input type="number" id="numero1" placeholder="Número 1">
+            <input type="number" id="numero2" placeholder="Número 2">
+            <button onclick="buscarElMayor()">Encontrar Mayor</button>
+            <p id="mayor-output"></p>
+        </section>
+
+        <section id="paroimpar">
+            <h2>Determinar si un Número es Par o Impar</h2>
+            <input type="number" id="numero" placeholder="Número">
+            <button onclick="parOImpar()">Comprobar</button>
+            <p id="par-impar-output"></p>
+        </section>
+
+        <section id="calcularprecio">
+            <h2>Calcular Precio con Descuento</h2>
+            <input type="number" id="precio" placeholder="Precio Original">
+            <input type="number" id="porcentajedescuento" placeholder="Porcentaje de Descuento">
+            <button onclick="calcularPrecio()">Calcular</button>
+            <p id="precio-output"></p>
+        </section>
+
+        <section id="calculararea">
+            <h2>Calcular Área del Círculo</h2>
+            <input type="number" id="radio" placeholder="Radio">
+            <button onclick="calcularArea()">Calcular</button>
+            <p id="area-output"></p>
+        </section>
+
+        <section id="convertirtemperatura">
+            <h2>Convertir Temperatura de Celsius a Fahrenheit</h2>
+            <input type="number" id="celsius" placeholder="Celsius">
+            <button onclick="convertirTemperatura()">Convertir</button>
+            <p id="temperatura-output"></p>
+        </section>
+
+        <section id="imprimirnumeros">
+            <h2>Imprimir Números del 1 al 10</h2>
+            <button onclick="imprimirNumeros()">Imprimir</button>
+            <p id="numeros-output"></p>
+        </section>
+
+        <section id="pedirnumeros">
+            <h2>Pedir Números hasta un Negativo</h2>
+            <button onclick="pedirNumeros()">Pedir</button>
+        </section>
+
+        <section id="tablamultiplicar">
+            <h2>Tabla de Multiplicar</h2>
+            <input type="number" id="numero-tabla" placeholder="Número">
+            <button onclick="tablaMultiplicar()">Mostrar Tabla</button>
+            <p id="tabla-output"></p>
+        </section>
+
+        <section id="sumarnumerospares">
+            <h2>Suma de Números Pares del 1 al 100</h2>
+            <button onclick="sumarNumerosPares()">Calcular Suma</button>
+            <p id="suma-output"></p>
+        </section>
+
+        <section id="objetopersona">
+            <h2>Objeto Persona</h2>
+            <button onclick="crearPersona()">Crear Persona</button>
+            <p id="persona-output"></p>
+        </section>
+
+        <section id="arraypersonas">
+            <h2>Array de Objetos Persona</h2>
+            <button onclick="mostrarPersonas()">Mostrar Personas</button>
+            <p id="personas-output"></p>
+        </section>
+
+        <section id="calcularpromedio">
+            <h2>Calcular Promedio</h2>
+            <input type="text" id="numeros-array" placeholder="Ingrese números separados por comas">
+            <button onclick="calcularPromedio()">Calcular Promedio</button>
+            <p id="promedio-output"></p>
+        </section>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
